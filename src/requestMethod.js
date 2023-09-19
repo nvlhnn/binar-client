@@ -5,7 +5,7 @@ let BASE_URL = "";
 
 console.log(process.env.REACT_APP_NODE_ENV);
 if (process.env.REACT_APP_NODE_ENV === "release") {
-  BASE_URL = "https://backend-secondhand-3.herokuapp.com";
+  BASE_URL = "https://binar-server.fly.dev";
 } else if (process.env.REACT_APP_NODE_ENV === "development") {
   BASE_URL = "http://localhost:3000";
 } else {
